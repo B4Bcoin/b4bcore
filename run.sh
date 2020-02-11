@@ -113,7 +113,7 @@ printf '{
       "routePrefix": "api",
       "disableRateLimiter": "%s",
       "coinTicker": "https://api.coinmarketcap.com/v1/ticker/ravencoin/?convert=USD",
-      "coinShort": "RVN",
+      "coinShort": "B4B",
       "db": {
         "host": "%s",
         "port": "%s",

@@ -1,18 +1,18 @@
 {
-  "name": "ravencore",
+  "name": "b4bcore",
   "version": "1.0.5",
-  "description": "A platform to build ravencoin and blockchain-based applications.",
+  "description": "A platform to build b4bcoin and blockchain-based applications.",
   "author": "Under",
   "main": "index.js",
   "scripts": {
     "test": "./node_modules/.bin/mocha test/** --recursive"
   },
   "bin": {
-    "ravencore": "./bin/ravencore",
-    "ravencored": "./bin/ravencored"
+    "b4bcore": "./bin/b4bcore",
+    "b4bcored": "./bin/b4bcored"
   },
   "keywords": [
-    "ravencoin",
+    "b4bcoin",
     "transaction",
     "address",
     "p2p",

@@ -246,7 +246,7 @@ git checkout -b remove/some-file
 
 We expect pull requests to be rebased to the master branch before merging:
 ```sh
-git remote add under git@github.com:OverstockMedici/ravencore.git
+git remote add under git@github.com:B4Bcoin/b4bcore.git
 git pull --rebase under master
 ```
 

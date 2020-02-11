@@ -21,7 +21,7 @@
     "insight-api": {
       "routePrefix": "api",
       "coinTicker" : "https://api.coinmarketcap.com/v1/ticker/ravencoin/?convert=USD",
-      "coinShort": "RVN",
+      "coinShort": "B4B",
       "db": {
         "host": "127.0.0.1",
         "port": "27017",
