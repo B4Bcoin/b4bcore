@@ -2,7 +2,7 @@
   "network": "livenet",
   "port": 3001,
   "services": [
-    "ravend",
+    "b4bd",
     "web",
     "insight-api",
     "insight-ui"
@@ -25,21 +25,21 @@
       "db": {
         "host": "127.0.0.1",
         "port": "27017",
-        "database": "raven-api-livenet",
+        "database": "b4b-api-livenet",
         "user": "test",
         "password": "test1234"
       }
     },
-    "ravend": {
-      "sendTxLog": "/home/ubuntu/.ravencore/pushtx.log",
+    "b4bd": {
+      "sendTxLog": "/home/ubuntu/.b4bcore/pushtx.log",
       "spawn": {
-        "datadir": "/home/ubuntu/.ravencore/data",
-        "exec": "/home/ubuntu/rdk/ravencore/node_modules/ravencore-node/bin/ravend",
+        "datadir": "/home/ubuntu/.b4bcore/data",
+        "exec": "/home/ubuntu/bdk/b4bcore/node_modules/b4bcore-node/bin/b4bd",
         "rpcqueue": 1000,
         "rpcport": 8766,
         "zmqpubrawtx": "tcp://127.0.0.1:28332",
         "zmqpubhashblock": "tcp://127.0.0.1:28332",
-        "rpcuser": "ravencoin",
+        "rpcuser": "b4bcoin",
         "rpcpassword": "local321"
       }
     }

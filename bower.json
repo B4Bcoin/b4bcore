@@ -1,8 +1,8 @@
 {
-  "name": "ravencore",
-  "main": "./ravencore.min.js",
+  "name": "b4bcore",
+  "main": "./b4bcore.min.js",
   "version": "1.0.1",
-  "homepage": "https://github.com/RavenDevKit",
+  "homepage": "https://github.com/B4Bcoin",
   "authors": [
     "Under"
   ],
@@ -11,8 +11,8 @@
     "globals"
   ],
   "keywords": [
-    "ravencoin",
-    "ravencore",
+    "b4bcoin",
+    "b4bcore",
     "btc",
     "satoshi"
   ],

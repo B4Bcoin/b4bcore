@@ -45,13 +45,13 @@ fi
 if [[ ${MONGODATABASE} ]]; then
   mongo_database=${MONGODATABASE}
 else
-  mongo_database="raven-api"
+  mongo_database="b4b-api"
 fi
 
 if [[ ${MONGOUSER} ]]; then
   mongo_user=${MONGOUSER}
 else
-  mongo_user="raven"
+  mongo_user="b4b"
 fi
 
 if [[ ${MONGOPASSWORD} ]]; then
@@ -63,7 +63,7 @@ fi
 if [[ ${RPCHOST} ]]; then
   rpc_host=${RPCHOST}
 else
-  rpc_host="ravend"
+  rpc_host="b4bd"
 fi
 
 if [[ ${RPCPORT} ]]; then
@@ -75,7 +75,7 @@ fi
 if [[ ${RPCUSER} ]]; then
   rpc_user=${RPCUSER}
 else
-  rpc_user="raven"
+  rpc_user="b4b"
 fi
 
 if [[ ${RPCPASSWORD} ]]; then
@@ -94,7 +94,7 @@ printf '{
   "network": "%s",
   "port": "%s",
   "services": [
-    "ravend",
+    "b4bd",
     "web",
     "insight-api",
     "insight-ui"
@@ -122,7 +122,7 @@ printf '{
         "password": "%s"
       }
     },
-    "ravend": {
+    "b4bd": {
       "connect": [ {
         "rpchost": "%s",
         "rpcport": "%s",
@@ -147,11 +147,11 @@ printf '{
 "${rpc_port}" \
 "${rpc_user}" \
 "${rpc_password}" \
-"${rpc_zmqaddress}" > ./ravencore-node.json
+"${rpc_zmqaddress}" > ./b4bcore-node.json
 
-if [[ -e /app/bin/ravencored ]]; then
-  /app/bin/ravencored -c /app/ravencore-node.json
+if [[ -e /app/bin/b4bcored ]]; then
+  /app/bin/b4bcored -c /app/b4bcore-node.json
 else
-  echo "unable to fine ravencored. $?"
+  echo "unable to fine b4bcored. $?"
   exit 1
 fi

@@ -1,7 +1,7 @@
 #!/usr/bin/env node
 
-var ravencore = require('ravencore-node/lib/cli/ravencore');
+var b4bcore = require('b4bcore-node/lib/cli/b4bcore');
 var path = require('path');
 var servicesPath = path.resolve(__dirname, '../');
 var additionalServices = ['insight-api', 'insight-ui'];
-ravencore(servicesPath, additionalServices);
+b4bcore(servicesPath, additionalServices);

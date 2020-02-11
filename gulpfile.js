@@ -1,5 +1,5 @@
 
 
-var ravencoreTasks = require('ravencore-build');
+var b4bcoreTasks = require('b4bcore-build');
 
-ravencoreTasks();
+b4bcoreTasks();

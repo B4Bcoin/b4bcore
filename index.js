@@ -1,5 +1,5 @@
 'use strict';
 
-var ravencore = require('ravencore-lib');
+var b4bcore = require('b4bcore-lib');
 
-module.exports = ravencore;
+module.exports = b4bcore;
