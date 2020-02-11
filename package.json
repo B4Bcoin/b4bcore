@@ -38,7 +38,6 @@
     "@B4Bcoin/b4bcore-lib": "github:B4Bcoin/b4bcore-lib",
     "@B4Bcoin/insight-api": "github:B4Bcoin/insight-api",
     "@B4Bcoin/insight-ui": "github:B4Bcoin/insight-ui",
-    "@B4Bcoin/b4bcore-lib": "github:B4Bcoin/b4bcore-lib",
     "@B4Bcoin/b4bcore-node": "github:B4Bcoin/b4bcore-node"
   },
   "license": "MIT",
